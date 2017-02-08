@@ -8,9 +8,6 @@ tags
 
 *.mo
 
-www/js/config.js
 platforms
 plugins
 compiled
-locale/lang_list
-config.xml

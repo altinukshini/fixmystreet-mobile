@@ -35,6 +35,7 @@
 
         <script type="text/javascript">
             var FMS = {};
+            var CUSTOMLANG = 'en';
         </script>
 
         <script type="text/javascript" src="js/config.js"></script>
@@ -72,7 +73,14 @@
         </script>
 
         <script type="text/javascript" src="js/locate.js"></script>
-        <script type="text/javascript" src="js/strings.js"></script>
+        <script type="text/javascript">
+            if (CONFIG && CONFIG.LANGUAGE == 'sq') {
+                add_script("js/strings-sq.js");
+            } else {
+                add_script("js/strings.js");
+            }
+        </script>
+        <!-- <script type="text/javascript" src="js/strings-sq.js"></script> -->
         <script type="text/javascript" src="js/files.js"></script>
 
         <script type="text/javascript" src="js/views/fms.js"></script>

@@ -1,12 +1,13 @@
 <div id="submit-header" data-role="header">
     <a id="reports-next-btn" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">Ballina</a>
     <h1>Kyçu</h1>
+    <script type="text/javascript" src="js/config.js"></script> 
 </div>
 
 <div data-role="content">
     <% if ( FMS.isLoggedIn ) { %>
     <div id="signed_in_row">
-        <p class="notopmargin">You are signed in as <%= email %></p>
+        <p class="notopmargin">Ju jeni të kyçur si <%= email %></p>
         <div id="err" class="nodisplay"></div>
         <div class="bottom-btn">
             <input type="button" id="logout" name="logout" value="Çkyçu" data-theme="a">

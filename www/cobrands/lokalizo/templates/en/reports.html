@@ -1,12 +1,12 @@
 <div data-role="header" data-position="fixed">
-        <a id="reports-next-btn" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">Ballina</a>
-        <h1>Raportet skicë</h1>
+        <a id="reports-next-btn" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">Home</a>
+        <h1>Draft Reports</h1>
 </div>
 <div id="drafts">
-    <p id="noreports" class="nodisplay">Nëse përpiloni një raport, por nuk e dërgoni atë, do të shfaqet në këtë menu për ta përfunduar më vonë</p>
+    <p id="noreports" class="nodisplay">If you start compiling a report, but don't finish and send it, it'll appear in this menu so you can finish it later</p>
     <div id="report-list" class="nodisplay">
         <p class="notopmargin">
-        Këto janë skicat dhe raportet e pa dërguara. Për ti përfunduar dhe dërguar ato, hap raportin kur ju të jeni të lidhur në internet.
+        These are your draft, unsent reports. To finish and send them, open a report when online.
         </p>
         <ul data-role="listview" data-split-theme="c" data-inset="true" data-split-icon="delete" class="notopmargin reports">
             <% drafts.each(function(draft) {
@@ -22,7 +22,7 @@
                     if ( classes.length ) {
                         draftClass = 'class="' + classes.join(' ') + '"';
                     }
-                    print( '<li id="' + draft.id + '"' + draftClass + '><a href="#" class="use_report">' + draft.description() + '</a><a class="del_report" href="#" title="delete">Fshij</a></li>' );
+                    print( '<li id="' + draft.id + '"' + draftClass + '><a href="#" class="use_report">' + draft.description() + '</a><a class="del_report" href="#" title="delete">Delete</a></li>' );
                 }
                 } ); %>
         </ul>

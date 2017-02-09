@@ -31,6 +31,7 @@
     <access origin="*://sq.lokalizo.org" />
     <access origin="*://en.lokalizo.org" />
     <access origin="*://sr.lokalizo.org" />
+    <access origin="*://fixmystreet.com" />
 
     <preference name="android-minSdkVersion" value="16" />
     <preference name="orientation" value="portrait" />

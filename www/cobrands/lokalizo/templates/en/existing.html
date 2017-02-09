@@ -1,5 +1,5 @@
 <div data-role="header">
-        <h1>Raportet e padërguara</h1>
+        <h1>Unsent Report</h1>
 </div>
 <div data-role="content" role="main">
     <div id="existing_report">
@@ -9,8 +9,8 @@
 
         <div class="meta">
         <p>
-        <% if ( category && category != '-- Zgjidh një kategori --' ) { %>
-            E ruajtur në kategorinë <%= category %>
+        <% if ( category && category != '-- Pick a category --' ) { %>
+            Saved in the <%= category %> category
         <% } %>
         </p>
 
@@ -28,8 +28,8 @@
 
 
     <div class="right">
-    <input id="use_report" type="button" value="Përfundo raportin tani" data-role="button" data-theme="a" />
-    <input id="save_report" type="button" value="Ruaj për më vonë" data-role="button" data-theme="a" />
-    <input id="discard" type="button" value="Hedh" data-role="button" data-theme="a" />
+    <input id="use_report" type="button" value="Complete report now" data-role="button" data-theme="a" />
+    <input id="save_report" type="button" value="Save for later" data-role="button" data-theme="a" />
+    <input id="discard" type="button" value="Discard" data-role="button" data-theme="a" />
     </div>
 </div>

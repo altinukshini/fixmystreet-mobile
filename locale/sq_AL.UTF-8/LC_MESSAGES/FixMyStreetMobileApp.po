@@ -120,7 +120,7 @@ msgstr "Gjej vendndodhjen."
 
 #: templates/login.html:2 templates/reports.html:2 templates/sent.html:2
 msgid "Home"
-msgstr "Shtëpi"
+msgstr "Ballina"
 
 #: templates/submit_email.html:21
 msgid "I don't want to set a password"

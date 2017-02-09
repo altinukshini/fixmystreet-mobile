@@ -398,7 +398,11 @@
                         var li = '<li><a class="address" id="location_' + i + '" data-lat="' + loc.lat + '" data-long="' + loc.long + '">' + loc.address + '</a></li>';
                         multiple = multiple + li;
                     }
-                    $('#front-howto').html('<p>Multiple matches found</p><ul data-role="listview" data-inset="true">' + multiple + '</ul>');
+                    if (CONFIG.LANGUAGE == 'sq') {
+                        $('#front-howto').html('<p>U gjetën shumë rezultate të ngjajshme</p><ul data-role="listview" data-inset="true">' + multiple + '</ul>');
+                    } else {
+                        $('#front-howto').html('<p>Multiple matches found</p><ul data-role="listview" data-inset="true">' + multiple + '</ul>');
+                    }
                     $('.ui-page').trigger('create');
                     $('#relocate').hide();
                     $('#front-howto').show();

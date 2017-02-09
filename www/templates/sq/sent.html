@@ -1,0 +1,22 @@
+<div id="report-created-header" data-role="header">
+    <a class="ui-btn-left">Shtëpi</a>
+    <h1>Raporti u krijua</h1>
+</div>
+<div data-role="content">
+    <% if ( typeof email_confirm != 'undefined' && email_confirm === 1 ) { %>
+    <h3>Emaili i konfirmimit u dërgua</h3>
+
+    <p>
+    Ju kemi dërguar një email konfrimimi e cila mund të marrë disa minuta të arrijë tek ju. Kur të arrijë, shtypni lidhjen në email për të konfrimuar raportin.
+    </p>
+    <% } else { %>
+    <h3>Ju faleminderit. Raporti juaj do të dërgohet tek institucionet përkatëse menjëherë.</h3>
+
+    <p class="center"><input type="button" data-theme="a" id="open_report" value="Shikoje në uebfaqe"></p>
+    <% } %>
+
+
+    <div class="bottom-btn">
+        <input type="button" id="id_report_another" data-theme="a" value="Fillo një raport të ri" >
+    </div>
+</div>

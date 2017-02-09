@@ -1,0 +1,25 @@
+<div id="submit-header" data-role="header">
+    <h1>Detajet tuaja</h1>
+</div>
+
+<div data-role="content">
+    <div class="inputcard">
+        <div>
+            <input data-role="none" type="email" value="<%= user.email %>" name="email" id="form_email" placeholder="Ju lutem shkruani emailin adresen tuaj" required>
+        </div>
+    </div>
+
+    <p>
+    Këtij aplikacioni i duhet të ju dërgoj ju një email konfirmimi para se të dërgohet raporti juaj tek institucioni përkatës.
+    </p>
+
+    <p>
+    Ju mund të vendosni një fjalëkalim tani që të kaloni këtë hap në të ardhmen.
+    </p>
+
+    <div class="bottom-btn">
+        <input data-role="button" data-theme="a" type="button" id="email_confirm" name="email_confirm" value="Nuk dua të vë fjalëkalim">
+        <input data-role="button" data-theme="a" type="button" id="set_password" name="set_password" value="Dua të vë fjalëkalim">
+        <input data-role="button" data-theme="a" type="button" id="have_password" name="have_password" value="E kam një - kyçu">
+    </div>
+</div>

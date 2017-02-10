@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1165a23-4b70-4281-8fce-5885fe8c5d7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cobrands/lokalizo/config.xml" afterPath="$PROJECT_DIR$/cobrands/lokalizo/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locale/sq_AL.UTF-8/LC_MESSAGES/FixMyStreetMobileApp.po" afterPath="$PROJECT_DIR$/locale/sq_AL.UTF-8/LC_MESSAGES/FixMyStreetMobileApp.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/cobrands/lokalizo/css/style.css" afterPath="$PROJECT_DIR$/www/cobrands/lokalizo/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/config.js" afterPath="$PROJECT_DIR$/www/js/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/strings.js" afterPath="$PROJECT_DIR$/www/js/strings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/views/around.js" afterPath="$PROJECT_DIR$/www/js/views/around.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/sq/existing.html" afterPath="$PROJECT_DIR$/www/templates/sq/existing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/sq/login.html" afterPath="$PROJECT_DIR$/www/templates/sq/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/sq/reports.html" afterPath="$PROJECT_DIR$/www/templates/sq/reports.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/sq/sent.html" afterPath="$PROJECT_DIR$/www/templates/sq/sent.html" />
-    </list>
+    <list default="true" id="d1165a23-4b70-4281-8fce-5885fe8c5d7c" name="Default" comment="" />
     <ignored path="lokalizo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,8 +73,12 @@
       <pane id="AndroidView">
         <subPane />
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files">
@@ -234,32 +226,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lokalizo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lokalizo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lokalizo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cobrands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lokalizo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>

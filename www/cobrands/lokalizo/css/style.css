@@ -134,3 +134,7 @@ textarea{
   background-color: #fff;
   box-shadow: none;
 }
+
+#front-howto div[data-role='listview'] {
+  overflow-z: auto;
+}

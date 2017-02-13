@@ -31,7 +31,6 @@
     <access origin="*://sq.lokalizo.org" />
     <access origin="*://en.lokalizo.org" />
     <access origin="*://sr.lokalizo.org" />
-    <access origin="*://fixmystreet.com" />
 
     <preference name="android-minSdkVersion" value="16" />
     <preference name="orientation" value="portrait" />
@@ -89,6 +88,7 @@
     <plugin name="cordova-plugin-camera" spec="~2.1.1" />
     <plugin name="cordova-plugin-device" spec="~1.1.1" />
     <plugin name="cordova-plugin-dialogs" spec="~1.2.0" />
+    <plugin name="cordova.plugins.diagnostic" spec="~2.3.0" source="npm" />
     <plugin name="cordova-plugin-file" spec="~4.1.1" />
     <plugin name="cordova-plugin-file-transfer" spec="~1.5.0" />
     <plugin name="cordova-plugin-geolocation" spec="~2.1.0" />

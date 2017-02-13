@@ -37,7 +37,7 @@
             location_check_failed: 'Ndodhi një gabim gjatë kontrollimit nëse kemi mbulueshmëri për këtë vendndodhje. Ju lutem provoni më vonë.',
             category_extra_check_error: 'Kishte një gabim gjatë kontrollimit nëse i posedojmë të gjitha detajet e nevojshme për raportim. Ju lutem provoni më vonë.',
             locate_dismissed: 'Ju lutem kërkoni për një emër rruge ose zone.',
-            geolocation_failed: "Na vjen keq, por ne nuk ishim në gjendje për të vendosur vendndodhjen tuaj me saktësi të mjaftueshme për të ju treguar juve hartën. Ju lutem shkruani një vend në kutinë e kërkimit",
+            geolocation_failed: "Ne nuk ishim në gjendje për të gjetur vendndodhjen tuaj me saktësi të mjaftueshme që të ju tregojmë hartën. Ju lutem përdorni kutinë e kërkimit për gjetjen e lokacionit tuaj",
             geolocation_denied: 'Nuk u lejua çasja në serviset e vendndodhjes. Ju lutem kontrolloni lejet.',
             select_category: '-- Zgjidh një kategori --',
             offline_got_position: 'Gjej vendndodhjen.',

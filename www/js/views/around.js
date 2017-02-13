@@ -399,9 +399,9 @@
                         multiple = multiple + li;
                     }
                     if (CONFIG.LANGUAGE == 'sq') {
-                        $('#front-howto').html('<p>U gjetën shumë rezultate të ngjajshme</p><ul data-role="listview" data-inset="true">' + multiple + '</ul>');
+                        $('#front-howto').html('<p>U gjetën shumë rezultate të ngjajshme</p><ul data-role="listview" data-inset="true" data-theme="a">' + multiple + '</ul>');
                     } else {
-                        $('#front-howto').html('<p>Multiple matches found</p><ul data-role="listview" data-inset="true">' + multiple + '</ul>');
+                        $('#front-howto').html('<p>Multiple matches found</p><ul data-role="listview" data-inset="true" data-theme="a">' + multiple + '</ul>');
                     }
                     $('.ui-page').trigger('create');
                     $('#relocate').hide();

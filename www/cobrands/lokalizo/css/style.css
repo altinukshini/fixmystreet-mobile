@@ -134,7 +134,18 @@ textarea{
   background-color: #fff;
   box-shadow: none;
 }
+ul, li, input {
+  box-shadow: none;
+}
+li[data-theme='a'] {
+  border: none;
+  border-bottom: 1px solid #4DB848;
+  box-shadow: none;
+}
 
-#front-howto div[data-role='listview'] {
-  overflow-z: auto;
+.listCont {
+  height: 100%;
+  top: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }

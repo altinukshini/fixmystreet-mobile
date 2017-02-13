@@ -264,11 +264,13 @@ var tpl = {
             if ( typeof cordova !== 'undefined' ) {
                 cordova.plugins.Keyboard.disableScroll(true);
             }
+
             $('#load-screen').height( $(window).height() );
             FMS.initialized = 1;
             if ( navigator && navigator.splashscreen ) {
                 navigator.splashscreen.hide();
             }
+
             tpl.loadTemplates( FMS.templates, function() {
 
                 if ( typeof device !== 'undefined' && device.platform === 'Android' ) {
@@ -294,6 +296,12 @@ var tpl = {
                     locator: new FMS.Locate()
                 });
                 _.extend( FMS.locator, Backbone.Events );
+
+                cordova.plugins.diagnostic.isLocationEnabled(function(enabled){
+                    if (!enabled) {
+                        askForLocation(); // ask for location and restart if true
+                    }
+                });
 
                 // we only ever have the details of one user
                 FMS.users.fetch();
@@ -346,6 +354,15 @@ var tpl = {
             });
         }
     });
+
+    function askForLocation(){
+        if (window.confirm("Turn on GPS location settings and restart the application?")) {
+            cordova.plugins.diagnostic.switchToLocationSettings();
+            setTimeout(function(){
+                navigator.app.exitApp();
+            }, 2000);
+        }
+    }
 
     function onResume() {
         FMS.checkOnlineStatus();

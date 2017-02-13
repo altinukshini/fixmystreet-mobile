@@ -26,8 +26,8 @@
             <input data-role="none" type="tel" value="<%= user.phone %>" name="name" id="form_phone" placeholder="Shtypni numrin tuaj të telefonit (opsionale)">
         </div>
         <div data-role="fieldcontain">
-            <fieldset data-role="controlgroup">
-                <input type="checkbox" name="may_show_name" id="form_may_show_name" value="1" <% if ( typeof user.may_show_name == 'undefined' || user.may_show_name ) { %>checked<% } %>>
+            <fieldset data-role="controlgroup" data-theme="a" >
+                <input type="checkbox" data-theme="a" name="may_show_name" id="form_may_show_name" value="1" <% if ( typeof user.may_show_name == 'undefined' || user.may_show_name ) { %>checked<% } %>>
                 <label for="form_may_show_name">Shfaq emrin tim publikisht</label>
             </fieldset>
         </div>

@@ -1,27 +1,27 @@
 (function (FMS, _) {
     _.extend( FMS, {
         validationStrings: {
-            update: 'Ju lutem lini një mesazh',
-            title: 'Ju lutem shkruani subjektin',
-            detail: 'Ju lutem shkruani disa detaje',
+            update: 'Lini një mesazh',
+            title: 'Shkruani subjektin',
+            detail: 'Shkruani disa detaje',
             name: {
-                required: 'Ju lutem shkruani emrin tuaj',
-                validName: 'Ju lutem shkruani emrin tuaj të plotë, komunave ju duhet ky informacion - nëse nuk dëshironi që emri juaj të publikohet ne uebsajt, mos zgjidh opsionin më poshtë'
+                required: 'Emri juaj',
+                validName: 'Shkruani emrin tuaj të plotë, komunave ju duhet ky informacion - nëse nuk dëshironi që emri juaj të publikohet ne uebsajt, mos zgjidh opsionin më poshtë'
             },
-            category: 'Ju lutem zgjidhni kategorinë',
+            category: 'Zgjidh kategorinë',
             rznvy: {
-                required: 'Ju lutem shkruani emailin adresen tuaj',
-                email: 'Ju lutem shtypni një email valide'
+                required: 'Ju lutem shkruani email adresen tuaj',
+                email: 'E-mail adresa'
             },
             email: {
-                required: 'Ju lutem shkruani emailin adresen tuaj',
-                email: 'Ju lutem shtypni një email valide'
+                required: 'Ju lutem shkruani E-mail adresen tuaj',
+                email: 'E-mail adresa'
             },
-            password: 'Ju lutem shtypni fjalëkalimin'
+            password: 'Fjalëkalimi'
         },
         strings: {
             next: 'Vazhdo',
-            untitled_draft: 'Skicat e patitulluar',
+            untitled_draft: 'Skicat pa tituj',
             login_error: 'Kishte një problem gjatë kyçjes tuaj në llogari. Ju lutem provoni më vonë.',
             logout_error: 'Kishte një problem gjatë çkyçjes tuaj nga llogaria. Ju lutem provoni më vonë.',
             login_details_error: 'Kishte një problem gjatë kyçjes në këtë llogari. Ju lutem kontrolloni emailin, fjalëkalimin dhe nëse ju keni konfrimuar fjalëkalimin.',
@@ -43,7 +43,7 @@
             offline_got_position: 'Gjej vendndodhjen.',
             offline_failed_position: 'Nuk u gjet vendndodhja.',
             required: 'e nevojshme',
-            invalid_email: 'Email e pavlefshme',
+            invalid_email: 'E-mail adresa e pavlefshme',
             invalid_report: 'Raport i pavlefshëm',
             photo_failed: 'Kishte një problem gjatë shkrepjes së fotografisë.',
             photo_added: 'Foto u shtua',

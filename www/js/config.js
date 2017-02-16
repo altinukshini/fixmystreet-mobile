@@ -7,7 +7,7 @@ var CONFIG = {
 
     // URL of the fixmystreet install to report to. See also config.xml-example
     // Make sure it does *not* end with a slash.
-    FMS_URL: 'http://sq.lokalizo.org',
+    FMS_URL: 'https://sq.lokalizo.org',
 
     // Name of the cobrand to use for templates, stylesheets etc.
     // Cobrand files should be placed in a new directory within www/cobrands/

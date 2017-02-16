@@ -1,14 +1,4 @@
-.ios7 .ui-bar-a,
-body.ios7 {
-  background-color: #86cbe9;
-}
-
-.ios7 .ui-bar-a {
-  border-color: #86cbe9;
-}
-
-#load-screen,
-#locating {
+#load-screen, #locating, .ios7 #load-screen, .ios7 #locating {
     position: absolute;
     top: 0;
     left: 0;
@@ -65,26 +55,30 @@ body.ios7 {
   border-radius: 0px;
   padding:3px;
 }
-.ui-bar-a {
+
+.ui-bar-a, .ios7 .ui-bar-a, body.ios7 {
   border-color: #fff;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #4DB848;
   border-top: 1px solid #4DB848;
   background: #4DB848;
+  background-color: #4DB848;
   color: #fff;
 }
 
-.ui-bar-a .ui-btn-up-a, .ui-bar-a .ui-btn-hover-a, .ui-bar-a .ui-btn-down-a {
+.ui-bar-a .ui-btn-up-a, .ui-bar-a .ui-btn-hover-a, .ui-bar-a .ui-btn-down-a,
+.ios7 .ui-bar-a .ui-btn-up-a, .ios7 .ui-bar-a .ui-btn-hover-a, .ios7 .ui-bar-a .ui-btn-down-a {
     background-color: #fff;
     border-color: #4DB848;
 }
 
-.ui-btn-up-a, .ui-btn-hover-a, .ui-btn-down-a {
+.ui-btn-up-a, .ui-btn-hover-a, .ui-btn-down-a,
+.ios7 .ui-btn-up-a, .ios7 .ui-btn-hover-a, .ios7 .ui-btn-down-a {
     background: #fff;
-    border-color: #4DB848;
-    box-shadow:none;
+    border-color: #4DB848 !important;
+    box-shadow: none !important;
 }
 
-.ui-mobile-viewport, .ios7 #map_box {
+.ui-mobile-viewport, .ios7 .ui-mobile-viewport, #map_box, .ios7 #map_box {
     background-color: #86cbe9;
     background-image: url("../images/mountains.png");
 

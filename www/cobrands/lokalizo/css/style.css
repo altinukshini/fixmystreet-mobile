@@ -55,9 +55,15 @@
   border-radius: 0px;
   padding:3px;
 }
+.ios7 .ui-bar-a,
+body.ios7 {
+  background-color: #4DB848; }
 
-.ui-bar-a, .ios7 .ui-bar-a, body.ios7 {
-  border-color: #fff;
+.ios7 .ui-bar-a {
+  border-color: #4DB848; }
+  
+.ui-bar-a, .ios7 .ui-bar-a, body.ios7, body .ui-bar-a {
+  border-color: #4DB848;
   border-bottom: 1px solid #4DB848;
   border-top: 1px solid #4DB848;
   background: #4DB848;

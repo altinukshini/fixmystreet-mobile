@@ -356,21 +356,18 @@ var tpl = {
     });
 
     function askForLocation(){
+        var message = "Turn on GPS location settings and restart the application?";
+        
         if (CONFIG.LANGUAGE == 'sq') {
-            if (window.confirm("Lëshoni GPS lokacionin tek settings dhe ristartoni aplikacionin?")) {
-                cordova.plugins.diagnostic.switchToLocationSettings();
-                setTimeout(function(){
-                    navigator.app.exitApp();
-                }, 2000);
-            }
-        } else {
-            if (window.confirm("Turn on GPS location settings and restart the application?")) {
-                cordova.plugins.diagnostic.switchToLocationSettings();
-                setTimeout(function(){
-                    navigator.app.exitApp();
-                }, 2000);
-            }
-        }  
+            message = "Lëshoni GPS lokacionin tek settings dhe ristartoni aplikacionin?";
+        }
+
+        if (window.confirm(message)) {
+            cordova.plugins.diagnostic.switchToLocationSettings();
+            setTimeout(function(){
+                navigator.app.exitApp();
+            }, 2000);
+        }
     }
 
     function onResume() {

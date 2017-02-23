@@ -4,7 +4,7 @@
 
 <div data-role="content">
     <p class="notopmargin">
-    You are logged in as <%= user.email %>.
+    Ju jeni të kyçur si <%= user.email %>.
     </p>
 
     <p>
@@ -23,14 +23,14 @@
         </div>
         <% } %>
         <div>
-            <input data-role="none" type="text" value="<%= user.name %>" name="name" id="form_name" placeholder="Ju lutem shkruani emrin tuaj" required>
+            <input data-role="none" type="text" value="<%= user.name %>" name="name" id="form_name" placeholder="Emri juaj" required>
         </div>
         <div>
-            <input data-role="none" type="tel" value="<%= user.phone %>" name="name" id="form_phone" placeholder="Shtypni numrin tuaj të telefonit (opsionale)">
+            <input data-role="none" type="tel" value="<%= user.phone %>" name="name" id="form_phone" placeholder="Nr i telefonit (opsionale)">
         </div>
-        <div class="checkbox-group noborder">
-            <input type="checkbox" name="may_show_name" id="form_may_show_name" value="1" <% if ( typeof user.may_show_name == 'undefined' || user.may_show_name ) { %>checked<% } %>>
-            <label class="inline" for="form_may_show_name">Shfaq emrin tim publikisht</label>
+        <div class="checkbox-group noborder" data-theme="a" >
+            <input type="checkbox" data-theme="a" name="may_show_name" id="form_may_show_name" value="1" <% if ( typeof user.may_show_name == 'undefined' || user.may_show_name ) { %>checked<% } %>>
+            <label data-theme="a" class="inline" for="form_may_show_name">Shfaq emrin tim publikisht</label>
         </div>
     </div>
     <div class="bottom-btn">

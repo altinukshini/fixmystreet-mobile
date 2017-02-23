@@ -6,7 +6,7 @@
             detail: 'Please enter some details',
             name: {
                 required: 'Please enter your name',
-                validName: 'Please enter your full name, councils need this information - if you do not wish your name to be shown on the site, untick the box below'
+                validName: 'Please enter your full name, municipalities need this information - if you do not wish your name to be shown on the site, untick the box below'
             },
             category: 'Please choose a category',
             rznvy: {
@@ -37,7 +37,7 @@
             location_check_failed: 'There was a problem checking we cover this location. Please try again later.',
             category_extra_check_error: 'There was a problem checking if we have all the details we need. Please try again later.',
             locate_dismissed: 'Please search for a street name and area, or postcode.',
-            geolocation_failed: "Sorry, but we weren't able to establish your location accurately enough to show you a map. Please enter a location in the search box instead",
+            geolocation_failed: "Sorry, but we weren't able to establish your location accurately enough to show you a map. Please try finding your location by using the search box instead. <b>If you did not enable GPS location settings on your phone, please do that and restart the application to try again</b>",
             geolocation_denied: 'Could not access location services. Please check permissions.',
             select_category: '-- Pick a category --',
             offline_got_position: 'Got location.',

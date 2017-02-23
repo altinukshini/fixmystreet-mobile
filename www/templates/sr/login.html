@@ -1,0 +1,46 @@
+<div id="submit-header" data-role="header">
+    <a id="reports-next-btn" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">Početna</a>
+    <h1>Prijava</h1>
+</div>
+
+<div data-role="content">
+    <% if ( FMS.isLoggedIn ) { %>
+    <div id="signed_in_row">
+        <p class="notopmargin">You are signed in as <%= email %></p>
+        <div id="err" class="nodisplay"></div>
+        <div class="bottom-btn">
+            <input type="button" id="logout" name="logout" value="Odjavi se" data-theme="a">
+        </div>
+    </div>
+    <div id="password_row" class="nodisplay">
+        <p class="notopmargin">
+        Odjavljen/a!
+        </p>
+    <% } else { %>
+    <div id="password_row">
+    <% } %>
+        <form name="signinForm" class="inputcard" id="signinForm">
+        <div>
+            <input data-role="none" type="email" value="" name="email" id="form_email" placeholder="Vaš email" required>
+        </div>
+        <div>
+            <input data-role="none" type="password" value="" name="password" id="form_password" placeholder="Vaša lozinka" required>
+        </div>
+        <div class="noborder">
+            <input type="submit" id="login" name="login" value="Login" data-theme="a">
+        </div>
+        </form>
+        <p>Ova aplikacija podržava prijavljivanje samo sa već postojećim nalogom. Ukoliko ste ovde došli sa željom da kreirate novi korisnički nalog, molimo da to učinite tokom procesa prijavljivanja problema koristeći se ovom aplikacijom ili putem web sajta (klikom na link ispod).</p>
+
+        <button onclick="window.open('http://sr.lokalizo.org/auth', '_system');" data-theme="a">Registracija</button>
+    </div>
+    <div id="success_row" class="nodisplay">
+        <p class="notopmargin">
+        Prijavljen/a!
+        </p>
+        <div id="err" class="nodisplay"></div>
+        <div class="bottom-btn">
+            <input type="button" id="logout" name="logout" value="Odjavi se" data-theme="a">
+        </div>
+    </div>
+</div>

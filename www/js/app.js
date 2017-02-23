@@ -297,11 +297,11 @@ var tpl = {
                 });
                 _.extend( FMS.locator, Backbone.Events );
 
-                cordova.plugins.diagnostic.isLocationEnabled(function(enabled){
-                    if (!enabled) {
-                        askForLocation(); // ask for location and restart if true
-                    }
-                });
+                // cordova.plugins.diagnostic.isLocationEnabled(function(enabled){
+                //     if (!enabled) {
+                //         askForLocation(); // ask for location and restart if true
+                //     }
+                // });
 
                 // we only ever have the details of one user
                 FMS.users.fetch();
@@ -360,6 +360,8 @@ var tpl = {
         
         if (CONFIG.LANGUAGE == 'sq') {
             message = "Lëshoni GPS lokacionin tek settings dhe ristartoni aplikacionin?";
+        } else if (CONFIG.LANGUAGE == 'sr') {
+            message ="Da uključimo podešavanja GPS lokacije i ponovo pokrenemo aplikaciju?";
         }
 
         if (window.confirm(message)) {

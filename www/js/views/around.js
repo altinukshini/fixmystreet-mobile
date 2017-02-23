@@ -400,6 +400,8 @@
                     }
                     if (CONFIG.LANGUAGE == 'sq') {
                         $('#front-howto').html('<p>U gjetën shumë rezultate të ngjajshme</p><ul data-role="listview" data-inset="true" data-theme="a">' + multiple + '</ul>');
+                    } else if(CONFIG.LANGUAGE == 'sr') {
+                        $('#front-howto').html('<p>Pronađeno je više rezultata</p><ul data-role="listview" data-inset="true" data-theme="a">' + multiple + '</ul>');
                     } else {
                         $('#front-howto').html('<p>Multiple matches found</p><ul data-role="listview" data-inset="true" data-theme="a">' + multiple + '</ul>');
                     }

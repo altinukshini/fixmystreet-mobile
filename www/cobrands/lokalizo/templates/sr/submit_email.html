@@ -1,0 +1,25 @@
+<div id="submit-header" data-role="header">
+    <h1>Vaši detalji</h1>
+</div>
+
+<div data-role="content">
+    <div class="inputcard">
+        <div>
+            <input data-role="none" type="email" value="<%= user.email %>" name="email" id="form_email" placeholder="Molimo upišite Vašu email adresu" required>
+        </div>
+    </div>
+
+    <p>
+    Pre nego što problem koji ste prijavili pošaljemo opštini potrebno je da Vam pošalemo mail za potvrdu.
+    </p>
+
+    <p>
+    Ukoliko želite da ovaj korak preskočite u budućnosti, postavite lozinku sada.
+    </p>
+
+    <div class="bottom-btn">
+        <input data-role="button" data-theme="a" type="button" id="email_confirm" name="email_confirm" value="Ne želim lozinku">
+        <input data-role="button" data-theme="a" type="button" id="set_password" name="set_password" value="Želim lozinku">
+        <input data-role="button" data-theme="a" type="button" id="have_password" name="have_password" value="Već je imam - prijava">
+    </div>
+</div>

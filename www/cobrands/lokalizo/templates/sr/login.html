@@ -6,7 +6,7 @@
 <div data-role="content">
     <% if ( FMS.isLoggedIn ) { %>
     <div id="signed_in_row">
-        <p class="notopmargin">You are signed in as <%= email %></p>
+        <p class="notopmargin">Vi prijavljeni kao <%= email %></p>
         <div id="err" class="nodisplay"></div>
         <div class="bottom-btn">
             <input type="button" id="logout" name="logout" value="Odjavi se" data-theme="a">
@@ -27,7 +27,7 @@
             <input data-role="none" type="password" value="" name="password" id="form_password" placeholder="Vaša lozinka" required>
         </div>
         <div class="noborder">
-            <input type="submit" id="login" name="login" value="Login" data-theme="a">
+            <input type="submit" id="login" name="login" value="Prijava" data-theme="a">
         </div>
         </form>
         <p>Ova aplikacija podržava prijavljivanje samo sa već postojećim nalogom. Ukoliko ste ovde došli sa željom da kreirate novi korisnički nalog, molimo da to učinite tokom procesa prijavljivanja problema koristeći se ovom aplikacijom ili putem web sajta (klikom na link ispod).</p>

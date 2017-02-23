@@ -1,13 +1,13 @@
 var CONFIG = {
     // Language of templates to use ( should be name of directory under www/templates/ )
-    LANGUAGE: 'sq',
+    LANGUAGE: 'sr',
 
     // Name of app to use in alert dialog titles amongst other things
     APP_NAME: 'Lokalizo',
 
     // URL of the fixmystreet install to report to. See also config.xml-example
     // Make sure it does *not* end with a slash.
-    FMS_URL: 'https://sq.lokalizo.org',
+    FMS_URL: 'https://sr.lokalizo.org',
 
     // Name of the cobrand to use for templates, stylesheets etc.
     // Cobrand files should be placed in a new directory within www/cobrands/

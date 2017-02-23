@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="1" id="org.lokalizo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="1" id="org.lokalizo.sr" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Lokalizo</name>
     <description>
-        Raporto probleme në Lokalizo
+        Prijavi problema za Lokalizo
     </description>
     <author email="apps@mysociety.org" href="https://www.mysociety.org">
         mySociety

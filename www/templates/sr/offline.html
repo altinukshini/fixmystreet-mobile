@@ -22,9 +22,9 @@
     <div>
         <p class="notopmargin">
         <% if ( typeof id != 'undefined' ) { %>
-        Žao nam je, ali ne možemo da detektujemo vezu ka Internetu. Ali još uvek možete da ažurirate prijavu problema sada i pošaljete je kasnije.
+        Žao nam je, ali ne možemo da detektujemo vezu ka Internetu. Ipak još uvek možete da ažurirate prijavu problema sada i pošaljete je kasnije.
         <% } else { %>
-        Žao nam je ali ne možemo da detektujemo Internet vezu. Ipak, još uvek možete započeti sa prijavom novog problema i dovršiti je kasnije kada opet budete "online" tako što ćete posetiti "Nacrte" (drafts).
+        Žao nam je ali ne možemo da detektujemo Internet vezu. Ipak, još uvek možete započeti sa prijavom novog problema i dovršiti je kasnije kada opet budete online tako što ćete posetiti "Nacrte" (drafts).
         <% } %>
         </p>
 
@@ -32,7 +32,7 @@
         <% if ( lat ) { %>
         Ovaj prijavljeni problem ima poziciju.
         <% } else { %>
-        <input type="button" data-role="button" data-theme="a" id="locate" value="Lociraj (optional)" >
+        <input type="button" data-role="button" data-theme="a" id="locate" value="Lociraj (opciono)" >
         <% } %>
         </p>
 
@@ -65,7 +65,7 @@
             <div class="photo">
             <img class="small" id="photo" src="<%= file %>" />
             </div>
-            <input value="Ukloni sliku" type="button" name="del_photo_button" id="id_del_photo_button" data-role="button" data-theme="a">
+            <input value="Uklonite sliku" type="button" name="del_photo_button" id="id_del_photo_button" data-role="button" data-theme="a">
         </div>
     </div>
 </div>

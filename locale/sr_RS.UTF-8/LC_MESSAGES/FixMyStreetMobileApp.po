@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: struan@mysociety.org\n"
 "POT-Creation-Date: 2016-09-05 15:35+0100\n"
-"PO-Revision-Date: 2017-02-23 13:33+0100\n"
+"PO-Revision-Date: 2017-02-28 00:08+0100\n"
 "Language-Team: FLOSSK <info@flossk.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +17,7 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Last-Translator: \n"
 "Language: sr@latin\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #: templates/offline.html:54 templates/photo.html:17
 msgid "(optional)"
@@ -61,7 +61,7 @@ msgstr "Završite prijavu sada"
 
 #: templates/around.html:50
 msgid "Confirm Location"
-msgstr "Potvrdi lokaciju"
+msgstr "Potvrdite lokaciju"
 
 #: templates/submit_password.html:46
 msgid "Confirm name"
@@ -69,7 +69,7 @@ msgstr "Potvrdite ime"
 
 #: templates/sent.html:7
 msgid "Confirmation email sent"
-msgstr "Mail za potvrdu nije poslat"
+msgstr "Mail za potvrdu je poslat"
 
 #: templates/submit_set_password.html:18
 msgid "Continue"
@@ -119,7 +119,7 @@ msgstr "Pronalazimo Vašu lokaciju"
 
 #: templates/details_extra.html:2
 msgid "Further Details"
-msgstr "Više detalja\t"
+msgstr "Više detalja"
 
 #: templates/strings.js:43
 msgid "Got location."
@@ -160,7 +160,7 @@ msgstr "Neispravna prijava problema"
 
 #: templates/offline.html:35
 msgid "Locate (optional)"
-msgstr "Lociraj (optional)"
+msgstr "Lociraj (opciono)"
 
 #: templates/strings.js:30
 msgid "Location error"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: templates/around.html:41
 msgid "New Report Here"
-msgstr "Prijavi problem ovde"
+msgstr "Prijavite problem na ovoj lokaciji"
 
 #: templates/details.html:3 templates/details_extra.html:3
 #: templates/photo.html:6 templates/strings.js:23
@@ -201,18 +201,18 @@ msgstr ""
 
 #: templates/submit_name.html:9
 msgid "No problem - we don't like faffing with passwords either."
-msgstr "Nema problema - ni mi ne volimo da se bakćemo sa lozinkama"
+msgstr "Nema problema - ni mi ne volimo da se zamaramo lozinkama."
 
 #: templates/offline.html:3 templates/save_offline.html:2
 msgid "Offline"
-msgstr "Offline"
+msgstr "Van interneta (offline)"
 
 #: templates/offline.html:25
 msgid ""
 "Oh dear - we can't detect an internet connection. However you can still edit "
 "the report now and send it later."
 msgstr ""
-"Žao nam je, ali ne možemo da detektujemo vezu ka Internetu. Ali još uvek "
+"Žao nam je, ali ne možemo da detektujemo vezu ka Internetu. Ipak još uvek "
 "možete da ažurirate prijavu problema sada i pošaljete je kasnije."
 
 #: templates/offline.html:27
@@ -223,7 +223,7 @@ msgid ""
 msgstr ""
 "Žao nam je ali ne možemo da detektujemo Internet vezu. Ipak, još uvek možete "
 "započeti sa prijavom novog problema i dovršiti je kasnije kada opet budete "
-"\"online\" tako što ćete posetiti \"Nacrte\" (drafts)."
+"online tako što ćete posetiti \"Nacrte\" (drafts)."
 
 #: templates/submit_confirm.html:29 templates/submit_name.html:26
 msgid "Optionally enter your phone number"
@@ -255,7 +255,7 @@ msgstr "Molimo unesite lokaciju"
 
 #: templates/strings.js:4
 msgid "Please enter a message"
-msgstr "Moliko ukucajte poruku"
+msgstr "Molimo ukucajte poruku"
 
 #: templates/strings.js:20
 msgid "Please enter a password"
@@ -263,7 +263,7 @@ msgstr "Molimo ukucajte lozinku"
 
 #: templates/strings.js:5
 msgid "Please enter a subject"
-msgstr "Moliko upišite temu"
+msgstr "Molimo upišite naslov"
 
 #: templates/strings.js:14 templates/strings.js:18
 msgid "Please enter a valid email"
@@ -286,8 +286,9 @@ msgid ""
 "Please enter your full name, councils need this information - if you do not "
 "wish your name to be shown on the site, untick the box below"
 msgstr ""
-"Molio upišite Vaše puno ime, opštinama je ova informacija potrebna - ukoliko "
-"ne želite da Vaše ime bude prikazano na sajtu, deselektujte kućiću ispod"
+"Molimo upišite Vaše puno ime i prezime, opštinama je ova informacija "
+"potrebna; ukoliko ne želite da Vaše ime bude prikazano na sajtu, "
+"odštiklirajte polje ispod."
 
 #: templates/strings.js:8 templates/submit_confirm.html:26
 #: templates/submit_name.html:23
@@ -308,7 +309,7 @@ msgstr "Molimo da nam date neke osnovne podatke i skoro smo gotovi."
 
 #: templates/strings.js:39
 msgid "Please search for a street name and area, or postcode."
-msgstr "Molimo tražite ime ulice i naselja, ili poštkanski kod."
+msgstr "Molimo tražite ime ulice i naselja, ili poštanski kod."
 
 #: templates/details.html:9 templates/offline.html:41
 msgid "Provide a title"
@@ -316,7 +317,7 @@ msgstr "Unesite naslov"
 
 #: templates/offline.html:68
 msgid "Remove Photo"
-msgstr "Ukloni sliku"
+msgstr "Uklonite sliku"
 
 #: templates/submit_confirm.html:37 templates/submit_password.html:15
 msgid "Report"
@@ -357,7 +358,7 @@ msgstr "Lokacija problema koji je prijavljen je postavljena."
 #: templates/submit_confirm.html:33 templates/submit_name.html:31
 #: templates/submit_password.html:41
 msgid "Show my name publicly"
-msgstr "Prikaži moje javno"
+msgstr "Prikaži moje ime javno"
 
 #: templates/login.html:12 templates/login.html:40
 msgid "Sign Out"
@@ -381,7 +382,7 @@ msgid ""
 "show you a map. Please enter a location in the search box instead"
 msgstr ""
 "Žao nam je ali nismo u mogućnosti da dovoljno precizno odredimo Vašu "
-"lokaziju za prikaz mape. Molimo ukucajte lokaciju u polje za pretragu."
+"lokaciju za prikaz mape. Molimo ukucajte lokaciju u polje za pretragu."
 
 #: templates/sent.html:20
 msgid "Start new report"
@@ -413,7 +414,7 @@ msgid ""
 "There isn't an internet connection, do you want to save the current report "
 "for later?"
 msgstr ""
-"Nema internet veze; da li želite da sačuvate problem koji trenutno "
+"Nema internet veze, da li želite da sačuvate problem koji trenutno "
 "prijavljujete za kasnije?"
 
 #: templates/strings.js:38
@@ -477,7 +478,7 @@ msgid ""
 "the email screen and selecting the set password option. Passwords are not "
 "activated until the link in the confirmation email is clicked."
 msgstr ""
-"Došlo je do problema sa kombinacijom email/lozinka koju koristite. Ukoliko "
+"Došlo je do problema sa kombinacijom emaila/lozinke koju koristite. Ukoliko "
 "ste svoju lozinku zaboravili ili je nemate možete je podesiti povratkom na "
 "email ekran i biranjem opcije za postavljanje lozinke. Lozinke se ne "
 "aktiviraju sve dok se ne klikne na link u email-u za potvrde."
@@ -488,8 +489,8 @@ msgid ""
 "when online."
 msgstr ""
 "Ovo su nacrti prijava, kao i prijave problema koje još nisu poslate. Ukoliko "
-"želite da ih dovršite i pošaljete otvorite odgovarajuću prijavu kada ste "
-"povezani sa Internetom (online)"
+"želite da ih dovršite i pošaljete, otvorite odgovarajuću prijavu kada ste "
+"povezani na Internet (online)"
 
 #: templates/submit_email.html:13
 msgid ""
@@ -512,7 +513,7 @@ msgstr "Naslov"
 #: templates/submit_email.html:17
 msgid "To skip this step in future, you can set a password now."
 msgstr ""
-"Ukoliko želite da ovaj korak preskočite u budućnosti, postavite lozinku sada."
+"Ukoliko želite da ovaj korak preskočite u budućnosti - postavite lozinku."
 
 #: templates/offline.html:2 templates/strings.js:52
 msgid "Try Again"
@@ -539,9 +540,9 @@ msgid ""
 "We've sent you a confirmation email which may take a few minutes to arrive. "
 "Once it arrives click the link in the email to confirm your report."
 msgstr ""
-"Poslali smo Vaš konfirmacioni email kojem je potrebno nekoliko trenutaka da "
-"stigne. Kada primite taj email, za potvrdu prijavljenog problema kliknite na "
-"link u njemu."
+"Poslali smo Vam email za potvrdu koji ćete primiti za nekoliko trenutaka. "
+"Kada primite taj email, za potvrdu prijavljenog problema kliknite na link u "
+"njemu."
 
 #: templates/login.html:24
 msgid "Your Email"

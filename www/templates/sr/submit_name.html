@@ -6,7 +6,7 @@
     <div id="errors"></div>
     <p class="top">
     <% if ( nopassword ) { %>
-    Nema problema - ni mi ne volimo da se bakćemo sa lozinkama
+    Nema problema - ni mi ne volimo da se zamaramo lozinkama.
     <% } %>
     Molimo da nam date neke osnovne podatke i skoro smo gotovi.
     </p>
@@ -28,7 +28,7 @@
         <div data-role="fieldcontain">
             <fieldset data-role="controlgroup">
                 <input type="checkbox" name="may_show_name" id="form_may_show_name" value="1" <% if ( typeof user.may_show_name == 'undefined' || user.may_show_name ) { %>checked<% } %>>
-                <label for="form_may_show_name">Prikaži moje javno</label>
+                <label for="form_may_show_name">Prikaži moje ime javno</label>
             </fieldset>
         </div>
     </div>

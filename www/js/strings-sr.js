@@ -1,12 +1,12 @@
 (function (FMS, _) {
     _.extend( FMS, {
         validationStrings: {
-            update: 'Moliko ukucajte poruku',
-            title: 'Moliko upišite temu',
+            update: 'Molimo ukucajte poruku',
+            title: 'Molimo upišite naslov',
             detail: 'Molimo upišite neke detalje',
             name: {
                 required: 'Molimo unesite Vaše ime',
-                validName: 'Molio upišite Vaše puno ime, opštinama je ova informacija potrebna - ukoliko ne želite da Vaše ime bude prikazano na sajtu, deselektujte kućiću ispod'
+                validName: 'Molimo upišite Vaše puno ime i prezime, opštinama je ova informacija potrebna; ukoliko ne želite da Vaše ime bude prikazano na sajtu, odštiklirajte polje ispod.'
             },
             category: 'Molimo izaberite kategoriju',
             rznvy: {
@@ -25,7 +25,7 @@
             login_error: 'Došlo je problema sa prijavom. Molimo pokušajte ponovo kasnije.',
             logout_error: 'Došlo je do problema odjavom Molimo pokušajte ponovo kasnije.',
             login_details_error: 'Došlo je do problema prilikom prijavljivanja. Molimo proverite Vašu email adresu i lozinku i da li ste potvrdili Vašu lozinku.',
-            password_problem: 'Došlo je do problema sa kombinacijom email/lozinka koju koristite. Ukoliko ste svoju lozinku zaboravili ili je nemate možete je podesiti povratkom na email ekran i biranjem opcije za postavljanje lozinke. Lozinke se ne aktiviraju sve dok se ne klikne na link u email-u za potvrde.',
+            password_problem: 'Došlo je do problema sa kombinacijom emaila/lozinke koju koristite. Ukoliko ste svoju lozinku zaboravili ili je nemate možete je podesiti povratkom na email ekran i biranjem opcije za postavljanje lozinke. Lozinke se ne aktiviraju sve dok se ne klikne na link u email-u za potvrde.',
             search_placeholder: 'Traži mesto ili poštanski kod',
             location_error: 'Lokacija greška',
             location_problem: 'Došlo je do problema u pretrazi sa lokacijom koju ste tražili.',

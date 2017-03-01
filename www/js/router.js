@@ -149,8 +149,15 @@
             changeView: function(view) {
                 FMS.printDebug( 'change View to ' + view.id );
                 $(view.el).attr('data-role', 'page');
+                var backtxt = 'Back';
+                if (CONFIG.LANGUAGE == 'sq') {
+                    backtxt = 'Prapa';
+                } else if (CONFIG.LANGUAGE == 'sr'){
+                    backtxt = 'Nazad';
+                }
                 if ( view.prev ) {
                     $(view.el).attr('data-add-back-btn', 'true');
+                    $(view.el).attr('data-back-btn-text', backtxt);
                 }
                 view.render();
                 $('.jquerymobile').append($(view.el));

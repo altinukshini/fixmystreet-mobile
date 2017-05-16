@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="1" id="org.lokalizo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="1" id="org.lokalizo.en" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Lokalizo</name>
     <description>
-        Raporto probleme ne Lokalizo
+        Raport a problem in Lokalizo
     </description>
     <author email="apps@mysociety.org" href="https://www.mysociety.org">
         mySociety
@@ -43,12 +43,12 @@
 
     <platform name="android">
         <!-- Android icons -->
-        <icon density="ldpi" src="res/lokalizo/android/icon/sq/icon-ldpi.png" />
-        <icon density="mdpi" src="res/lokalizo/android/icon/sq/icon-mdpi.png" />
-        <icon density="hdpi" src="res/lokalizo/android/icon/sq/icon-hdpi.png" />
-        <icon density="xhdpi" src="res/lokalizo/android/icon/sq/icon-xhdpi.png" />
-        <icon density="xxhdpi" src="res/lokalizo/android/icon/sq/icon-xxhdpi.png" />
-        <icon density="xxxhdpi" src="res/lokalizo/android/icon/sq/icon-xxxhdpi.png" />
+        <icon density="ldpi" src="res/lokalizo/android/icon/en/icon-ldpi.png" />
+        <icon density="mdpi" src="res/lokalizo/android/icon/en/icon-mdpi.png" />
+        <icon density="hdpi" src="res/lokalizo/android/icon/en/icon-hdpi.png" />
+        <icon density="xhdpi" src="res/lokalizo/android/icon/en/icon-xhdpi.png" />
+        <icon density="xxhdpi" src="res/lokalizo/android/icon/en/icon-xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/lokalizo/android/icon/en/icon-xxxhdpi.png" />
 
         <!-- Android splash screens -->
         <splash density="ldpi" src="res/lokalizo/android/launch/screen-ldpi.png" />
@@ -61,22 +61,22 @@
 
     <platform name="ios">
         <!-- iOS icons -->
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-60x60@3x.png" width="180" height="180" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-60x60@1x.png" width="60" height="60" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-60x60@2x.png" width="120" height="120" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-76x76@1x.png" width="76" height="76" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-76x76@2x.png" width="152" height="152" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-40x40@1x.png" width="40" height="40" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-40x40@2x.png" width="80" height="80" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-57x57@1x.png" width="57" height="57" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-57x57@2x.png" width="114" height="114" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-72x72@1x.png" width="72" height="72" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-72x72@2x.png" width="144" height="144" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-29x29@1x.png" width="29" height="29" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-29x29@2x.png" width="58" height="58" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-50x50@1x.png" width="50" height="50" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-50x50@1x.png" width="100" height="100" />
-        <icon src="res/lokalizo/ios/icon/sq/Icon-App-83.5x83.5@2x.png" width="167" height="167" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-60x60@3x.png" width="180" height="180" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-60x60@1x.png" width="60" height="60" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-60x60@2x.png" width="120" height="120" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-76x76@1x.png" width="76" height="76" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-76x76@2x.png" width="152" height="152" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-40x40@1x.png" width="40" height="40" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-40x40@2x.png" width="80" height="80" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-57x57@1x.png" width="57" height="57" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-57x57@2x.png" width="114" height="114" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-72x72@1x.png" width="72" height="72" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-72x72@2x.png" width="144" height="144" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-29x29@1x.png" width="29" height="29" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-29x29@2x.png" width="58" height="58" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-50x50@1x.png" width="50" height="50" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-50x50@1x.png" width="100" height="100" />
+        <icon src="res/lokalizo/ios/icon/en/Icon-App-83.5x83.5@2x.png" width="167" height="167" />
 
         <!-- iOS Splash screens -->
         <splash src="res/lokalizo/ios/launch/320x480.png" width="320" height="480"/>
